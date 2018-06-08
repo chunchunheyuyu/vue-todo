@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matachunyan/vue-try.git"
+    "url": "git+https://github.com/chunchunheyuyu/vue-todo.git"
   },
   "author": "matachunyan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matachunyan/vue-try/issues"
+    "url": "https://github.com/chunchunheyuyu/vue-todo/issues"
   },
-  "homepage": "https://github.com/matachunyan/vue-try#readme"
+  "homepage": "https://github.com/chunchunheyuyu/vue-todo#readme"
 }
