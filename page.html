@@ -3,12 +3,18 @@
 <head>
     <meta charset=utf-8>
     <title>ToDoList</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <div id="app">
-    <section id="signinup" v-if="!currentUser">
-        <div class="signlogin-ct">
+    <section id="signinup" v-if="!currentUser" v-cloak>
+        <div class="signlogin-ct" >
             <h1>ToDoList</h1>
             <div class="signlogin-wrapper">
                 <div class="sign-ct">
@@ -48,7 +54,7 @@
             </div>
         </div>
     </section>
-    <section id="todo" v-if="currentUser">
+    <section id="todo" v-if="currentUser" v-cloak>
         <div class="sidebar">
             <h1>ToDoList</h1>
             <h3>筛选</h3>
